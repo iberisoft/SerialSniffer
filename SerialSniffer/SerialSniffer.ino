@@ -24,6 +24,7 @@ void redirectSerial(int src, int dst)
 	{
 		if (srcPrinted != src)
 		{
+			Serial.println();
 			Serial.print("#");
 			Serial.print(src + 1);
 			Serial.print(" -> ");
